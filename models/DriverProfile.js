@@ -17,7 +17,6 @@ const DriverProfileSchema= new mongoose.Schema({
   },
   license_photo:{
     type:String,
-    unique
   },
   history:{
     type:String
